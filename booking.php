@@ -12,14 +12,16 @@ include_once'header.php';
 
 <?php
 
-$dbServername = "localhost";
-$dbUsername = "root";
-$dbPassword = "";
+$dbServername = "ibrahimcms.mysql.database.azure.com";
+$dbUsername = "ibrahim@ibrahimcms";
+$dbPassword = "iI9141963";
 $dbName = "CMS";
 
-//getting data from db
+
 //php fucntion conncetion
+
 $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
+
 
 		$sql = "SELECT * FROM list WHERE 1";
 		$result = mysqli_query($conn, $sql);
@@ -37,14 +39,16 @@ $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 
 <?php
 
-$dbServername = "localhost";
-$dbUsername = "root";
-$dbPassword = "";
+$dbServername = "ibrahimcms.mysql.database.azure.com";
+$dbUsername = "ibrahim@ibrahimcms";
+$dbPassword = "iI9141963";
 $dbName = "CMS";
 
-//getting data from db
+
 //php fucntion conncetion
+
 $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
+
 
 		$sql = "SELECT * FROM list WHERE 1";
 		$result = mysqli_query($conn, $sql);
@@ -62,14 +66,16 @@ $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 
 <?php
 
-$dbServername = "localhost";
-$dbUsername = "root";
-$dbPassword = "";
+$dbServername = "ibrahimcms.mysql.database.azure.com";
+$dbUsername = "ibrahim@ibrahimcms";
+$dbPassword = "iI9141963";
 $dbName = "CMS";
 
-//getting data from db
+
 //php fucntion conncetion
+
 $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
+
 
 		$sql = "SELECT * FROM list WHERE 1";
 		$result = mysqli_query($conn, $sql);
@@ -88,14 +94,16 @@ $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 
 <?php
 
-$dbServername = "localhost";
-$dbUsername = "root";
-$dbPassword = "";
+$dbServername = "ibrahimcms.mysql.database.azure.com";
+$dbUsername = "ibrahim@ibrahimcms";
+$dbPassword = "iI9141963";
 $dbName = "CMS";
 
-//getting data from db
+
 //php fucntion conncetion
+
 $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
+
 
 		$sql = "SELECT * FROM list WHERE 1";
 		$result = mysqli_query($conn, $sql);
