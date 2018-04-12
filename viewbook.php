@@ -13,14 +13,16 @@ include_once'header.php';
 
   <?php
 
-  $dbServername = "localhost";
-  $dbUsername = "root";
-  $dbPassword = "";
-  $dbName = "CMS";
+$dbServername = "ibrahimcms.mysql.database.azure.com";
+$dbUsername = "ibrahim@ibrahimcms";
+$dbPassword = "iI9141963";
+$dbName = "CMS";
 
-  //getting data from db
-  //php fucntion conncetion
-  $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
+
+//php fucntion conncetion
+
+$conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
+
 
   		$sql = "SELECT * FROM booked WHERE buser_name = '{$_SESSION['u_name']}'";
   		$result = mysqli_query($conn, $sql);
