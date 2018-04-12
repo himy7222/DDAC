@@ -1,8 +1,8 @@
 <?php
 
-$dbServername = "localhost";
-$dbUsername = "root";
-$dbPassword = "";
+$dbServername = "ibrahimcms.mysql.database.azure.com";
+$dbUsername = "ibrahim@ibrahimcms";
+$dbPassword = "iI9141963";
 $dbName = "CMS";
 
 
