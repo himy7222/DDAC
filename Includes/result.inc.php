@@ -3,15 +3,16 @@
 if (isset($_POST['submit'])) {
 	//include_once 'dbc.inc.php';
 
-	$dbServername = "localhost";
-	$dbUsername = "root";
-	$dbPassword = "";
-	$dbName = "CMS";
+$dbServername = "ibrahimcms.mysql.database.azure.com";
+$dbUsername = "ibrahim@ibrahimcms";
+$dbPassword = "iI9141963";
+$dbName = "CMS";
 
 
-	//php fucntion conncetion
+//php fucntion conncetion
 
-	$conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
+$conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
+
   //getting data from the form..
   //mysqli_real_escape_string convert anything to string for security purpose...
 
